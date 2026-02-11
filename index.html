@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Etiquetas meta requeridas -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Feed de Instagram</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <div class="d-flex gap-2">
+                <button class="btn btn-success" type="button" data-bs-toggle="modal"
+                    data-bs-target="#createPostModal">Create a New Post</button>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-gear"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-btn-light">
+                        <li><a class="dropdown-item active" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accessibility</a></li>
+                        <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+<!--Pills-->
+<div class="container-fluid mt-2">
+    <ul class="nav nav-pills underline justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link link-secondary" href="grid.html">
+                <i class="fa-solid fa-table-cells"></i>
+            </a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link link-secondary" href="index.html">
+                <i class="fa-solid fa-square"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6"> <div class="card mb-4">
+                <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                    <h5 class="m-0">Mi mascota Nina</h5>
+                    <small class="text-muted">1/5</small>
+                </div>
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczMXWO6B0kXnkGXWj2ZaIHLzLsE6-CiAxDufOzLRr79eY2egB_WGuU-ym-Wx5bHfMooehHWp1FrA51wB1FDh-vlQ2hR43w57dy25ZDfiGS2FrSk3AvFe" class="card-img-top" alt="Post Image">
+                <div class="card-body">
+                    <p class="card-text"><strong>204 Likes</strong></p>
+                    <p class="card-text">
+                        Ella es Encantadora, se trata de mi niñita Nina, una mascota que adptamos mi familia y yo de la calle hace 3 años atrás. Y debo decir que esa desición ha valido muchísimo la pena.
+                    </p>
+                </div>
+            </div>
+<div class="card mb-4">
+                <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                    <h5 class="m-0">Mi primera cumbre</h5>
+                    <small class="text-muted">3/18</small>
+                </div>
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczNFL1Tq1XBlLgmTBDZ2aMJEct3CohE-TneWrkgZ2QV2f3c7VfMDuwEcWoGJIbVd_wwPsq2z0LM3lW0fnN1EpCUpWB2OyFX_vuJoHdrtRhPXlZIR8C2n" class="card-img-top" alt="Post Image">
+                <div class="card-body">
+                    <p class="card-text"><strong>310 Likes</strong></p>
+                    <p class="card-text">
+                        La isla La Borracha, es el punto más alto del parque Mochima, un archipielago de islas lleno de playas increíbles y cristalinas, que está ubicado en Anzoátegui, Venezuela. Cuando alcanzas cumbre, la vista del parque desde allí es alucinante, por lo que lo hace un punto muy especial.
+                    </p>
+                </div>
+            </div>
+<div class="card mb-4">
+                <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                    <h5 class="m-0">El Mirador Zamuro</h5>
+                    <small class="text-muted">1/4</small>
+                </div>
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczPF8fK3aKrLXMU-bqtP7jrLaW7qGrdZKiIguz8qOJ8QXcjEVz6Tv5l9ejdcXFKRdksHhLDylyb4c_sNNTF1DB7C7M5UZRnETiFHw01l9eOvAK9WYLy8" class="card-img-top" alt="Post Image">
+                <div class="card-body">
+                    <p class="card-text"><strong>72 Likes</strong></p>
+                    <p class="card-text">
+                        ¡Un viaje que recuerdo con mucho cariño!
+                    </p>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                    <h5 class="m-0">Alvarito en pañales</h5>
+                    <small class="text-muted">1/3</small>
+                </div>
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczObttYbxgYc9OSL95rM4BvsC36iBb_8p6K5-G6IYvI8WwCiR7w1SYmfjOfwlnXxyfF7sYLoohCqj_pseUk6f_aELjF3fu8TKI7Fmap-F0fR0LlVT6l9" class="card-img-top" alt="Post Image">
+                <div class="card-body">
+                    <p class="card-text"><strong>156 Likes</strong></p>
+                    <p class="card-text">
+                        Una foto cargada de nostalgia. Estaba siendo cargado por mi abuelito y a los lados me acompañaban mis primos.
+                    </p>
+                </div>
+            </div>
+            </div>
+    </div>
+</div>
+    <!--MODAL-->
+    <div class="modal" id="createPostModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Create a New Post</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="fw-bold mb-1">Caption:</p>
+                    <textarea class="form-control" rows="3" placeholder="add the caption of your post here"></textarea>
+                    <div class="d-flex gap-2 mt-3">
+                        <div class="border rounded-1 p-2 d-flex align-items-center justify-content-center"
+                            style="width: 38px; height: 38px; cursor: pointer;">
+                            <i class="fa-solid fa-camera"></i>
+                        </div>
+                        <div class="border rounded-1 p-2 d-flex align-items-center justify-content-center"
+                            style="width: 38px; height: 38px; cursor: pointer;">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Publish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
